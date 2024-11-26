@@ -1,0 +1,37 @@
+<div class="container border p-0 d-flex flex-column"
+style="height: calc(100vh - 48px);">
+    <div class="p-2 text-white bg-info mb-2">
+        {{(activeChat$ | async)?.chatName}}
+    </div>
+    <div 
+        #messageContainer
+        class="px-4 d-flex flex-column flex-grow-1"
+        style="overflow-y: auto;" >
+        <div 
+            *ngFor="let message of messages$ | async" 
+            class="border mb-3 p-1 {{message.userId === getActiveUserId() ? 
+                'bg-secondary text-white me-5' : 'bg-light ms-5'}}">
+            <div class="d-flex justify-content-between">
+                <span>
+                    {{message.userId | authorName}}
+                </span>
+                <span>
+                    {{message.time | date:'short' }}
+                </span>
+            </div>
+            <div>
+                {{message.content}}
+            </div>
+        </div>
+    </div>
+    <form 
+        class="d-flex align-items-baseline p-2 bg-info"
+        (ngSubmit)="sendMessage()">
+        <input type="text" class="w-75 mx-2 form-group form-control" [formControl]="newMessage"/>
+        <button 
+            type="submit" 
+            class="btn btn-secondary"
+            [disabled]="!newMessage.valid"
+        >Send</button>
+    </form>
+</div>

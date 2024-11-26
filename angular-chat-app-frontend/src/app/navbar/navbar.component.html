@@ -1,0 +1,9 @@
+<ul *ngIf="!(loggedIn$ | async)" class="nav nav-tabs nav-fill" style="height: 48px;">
+    <a class="nav-link" routerLink="/login">Login</a>
+    <a class="nav-link" routerLink="/register">Register</a>
+</ul>
+
+<ul *ngIf="loggedIn$ | async" class="nav nav-tabs nav-fill" style="height: 48px;">
+    <a class="nav-link" routerLink="/chats/overview">Chats</a>
+    <a class="nav-link" href=# (click)="logOut()">Logout</a>
+</ul>

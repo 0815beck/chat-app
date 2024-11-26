@@ -1,0 +1,7 @@
+<div class="container mt-4">
+    <div *ngFor="let chat of (chats$ | async)" 
+    class="text-bg-light p-3 mb-1 border chatCard"
+    routerLink="/chats/{{chat.id}}">
+        <span>{{chat.chatName}}</span>
+    </div>
+</div>
