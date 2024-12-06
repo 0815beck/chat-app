@@ -1,4 +1,4 @@
-#Chat-App
+# Chat-App
 
 Das ist eine einfache Chatapp mit ExpressJS im Backend und React im Frontend. Ich hab die nur geschrieben um ein paar Sachen auszuprobieren, nämlich:
 
