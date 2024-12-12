@@ -4,7 +4,7 @@ Das ist eine einfache Chatapp mit ExpressJS im Backend und React im Frontend. Ic
 
 - React
 - Authorization & Authentication mit JSON-web-tokens
-- websockets (mit socket io) um den Server updates pushen zu lassen.
+- websockets (mit socket io) um vom Server updates pushen zu können.
 
 Hier ein kurzes Video davon, wie sie funktioniert :) 
 
