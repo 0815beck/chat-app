@@ -1,6 +1,6 @@
 # Chat-App
 
-Das ist eine einfache Chatapp mit ExpressJS im Backend und React im Frontend. Ich hab die nur geschrieben um ein paar Sachen auszuprobieren, nämlich:
+Das ist eine einfache Chatapp mit ExpressJS im Backend und React im Frontend. Ich hab die geschrieben um ein paar Sachen auszuprobieren, nämlich:
 
 - React
 - Authorization & Authentication mit JSON-web-tokens
