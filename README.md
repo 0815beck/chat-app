@@ -1,8 +1,8 @@
 # Chat-App
 
-Das ist eine einfache Chatapp mit ExpressJS im Backend und React im Frontend. Ich hab die geschrieben um ein paar Sachen auszuprobieren, nämlich:
+Das ist eine einfache Chatapp mit ExpressJS im Backend und Angular im Frontend. Ich hab die geschrieben um ein paar Sachen auszuprobieren, nämlich:
 
-- React
+- Angular
 - Authorization & Authentication mit JSON-web-tokens
 - websockets (mit socket io) um vom Server updates pushen zu können.
 
