@@ -16,9 +16,9 @@ Hier ist eine Anleitung um die Chatapp lokal zu testen.
 5. Starte das Frontend über "npm run start" im Frontend-Ordner.
 6. Öffne die App in einem Browser.
 7. Lege zwei neue Benutzer*innenkonten an.
-8. Öffne die mysql-cli, schau dir die tabellen in der Datenbank an. Füge manuell einen neuen Chat zur chats-Tabelle hinzu.
+8. Öffne das MySql CLI, oder MySql-Workbench oder irgendwas anderes, und schau dir die Tabellen in der Datenbank an. Füge manuell einen neuen Chat zur chats-Tabelle hinzu.
 9. Füge manuell zwei Einträge zur memberOf-Tabelle hinzu.
-10. Logge die beiden Benutzerinnen ein und beginne zu chatten.
+10. Logge die beiden Benutzer*innen ein und beginne zu chatten.
 
 Falls du die App online nutzen willst, solltest do den node js server hinter einem richtigem Server wie nginx als reverse Proxy laufen lassen.
 User können über die UI-hinzugefügt werden, aber Chatgruppen müssen in dieser Version noch manuell erstellt werden.
